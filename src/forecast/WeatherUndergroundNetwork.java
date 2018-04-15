@@ -67,7 +67,7 @@ public class WeatherUndergroundNetwork {
 			dateString = date.format(formatter);
 			
 		
-		} else if (days <= 10) {
+		} else if (days < 10) {
 			//10dayforecast URL is needed
 			
 			getRequestURL = "http://api.wunderground.com/api/fa8162aa00c36874/forecast10day/q/" + state + "/" + city + ".json";
